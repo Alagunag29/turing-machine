@@ -1,0 +1,23 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	background-color: #233946;
+	height: 100vh;
+}
+
+.container-items {
+	width : 50%;
+}
+
+.container-items:first-child {
+	border-right: 2px solid white;
+}
+
+.container-items:last-child {
+	border-left: 2px solid white;
+}
