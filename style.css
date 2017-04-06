@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
+	color: white;
 }
 
 .container {
@@ -15,9 +16,47 @@ body {
 }
 
 .container-items:first-child {
-	border-right: 2px solid white;
+	border-right: 2px solid #ECECED;
+	font-size : 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .container-items:last-child {
-	border-left: 2px solid white;
+	border-left: 2px solid #ECECED;
+	display: flex;
+	align-items: center;
+	padding: 0 10px;
 }
+
+.tape-turing{
+	display: flex;
+}
+
+.turing-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 60px;
+	height: 60px;
+	font-size: 30px;
+	font-weight: 700;/*#ECECED*/
+	background-color: #598B11;
+	color: #FFF;
+	border 1px solid #598B11;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+
+.button {
+	cursor: pointer;
+	color: white;
+	font-size: 15px;
+	background-color: #598B11;
+	width: 110px;
+	height: 40px;
+	border: #598B11;
+	border-radius: 10px;
+}
+
