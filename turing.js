@@ -48,7 +48,7 @@ function remove(){
 	$('.turing-container').remove();
 }
 
-
+timer = setTimeout('temporizador()', 4000);
 function logica(){
 	var estado = "q1";
 	var position = 0;
@@ -74,12 +74,10 @@ function logica(){
 					palabra[position].estado = 1;
 				}else{
 					 palabra[position-1].estado = 1;
-				}
-			}
-			remove();	
-			contenido();			
+				}				
+			}			
 		}
+		remove();
+		contenido();
 	}
 }
-
-
