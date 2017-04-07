@@ -42,11 +42,18 @@ body {
 	height: 60px;
 	font-size: 30px;
 	font-weight: 700;/*#ECECED*/
-	background-color: #598B11;
 	color: #FFF;
 	border 1px solid #598B11;
 	border-radius: 5px;
 	margin-right: 10px;
+}
+
+.turing-container-green {
+	background-color: #598B11;
+}
+
+.turing-container-red {
+	background-color: #E10700;
 }
 
 .button {
