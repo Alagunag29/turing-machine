@@ -6,25 +6,33 @@
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-		<div class="container">
-			<div class="container-items" id="transition-function">
-				<div>
-					<div>
-						<p>(q1, q) = (q1, a, R)<p>
-						<p>(q1, b) = (q2, a, R)</p>
-						<p>(q2, a) = (q2, a, R)</p>
-						<p>(q2, b) = (q2, b, R)</p>
-						<p>(q3, B) = (q3, B, L)</p>
-					</div>
-					<div>
-						<input type="button" value="Simular" class="button"/>
-					</div>
+		
+		<div class="container-items" id="turing-simulation">
+			<div class="tape-turing" id="tape-turing">
+			
+			</div>
+		</div>
+		<div class="container"> 
+			<div class="container-guardar"> 
+				<input type="text" placeholder="(q1,q)=(q2,a,R)" class="text" id="text-expresion">
+				<input type="button" value="Guardar" class="boton" id="expresion">
+				<div id="contenedor-expresion"> 
 				</div>
 			</div>
-			<div class="container-items" id="turing-simulation">
-				<div class="tape-turing" id="tape-turing">
-				
+			<div class="container-blanca">
+				<input type="text" placeholder="Palabra blanca" class="text text-blanca" id="text-blanca">
+				<input type="button" value="Guardar" class="boton" id="blanca">
+				<div id="contenedor-blanca">
 				</div>
+			</div>
+			<div class="contenedor-inicial">
+				<input type="text" placeholder="Inicial" class="text" id="text-inicial" >
+			    <input type="button" value="Guardar" class="boton" id="inicial">
+				<div id="contenedor-inicial">
+				</div>	
+			</div>
+			<div>
+				<input type="button" value="Simulación" class="simulacion" id="simulacion" >
 			</div>
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>	

@@ -1,26 +1,8 @@
 body {
 	margin: 0;
 	padding: 0;
-	color: white;
-}
-
-.container {
-	display: flex;
-	justify-content: space-between;
-	background-color: #233946;
-	height: 100vh;
-}
-
-.container-items {
-	width : 50%;
-}
-
-.container-items:first-child {
-	border-right: 2px solid #ECECED;
-	font-size : 20px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	color: black;
+	font-family: monospace; 
 }
 
 .container-items:last-child {
@@ -30,10 +12,13 @@ body {
 	padding: 0 10px;
 }
 
-.tape-turing{
+.tape-turing {
 	display: flex;
-}
-
+	justify-content: center;
+	padding: 30px;
+	margin: 15px;
+	border: 1px solid #03A9F4;
+}	
 .turing-container {
 	display: flex;
 	align-items: center;
@@ -48,22 +33,48 @@ body {
 	margin-right: 10px;
 }
 
-.turing-container-green {
-	background-color: #598B11;
+.purple {
+	background-color: #7B1FA2
 }
 
-.turing-container-red {
-	background-color: #E10700;
+.blue {
+	background-color: #03A9F4;
 }
 
-.button {
-	cursor: pointer;
-	color: white;
+.container {
+	margin: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.text {
+	height: 20px;
 	font-size: 15px;
-	background-color: #598B11;
-	width: 110px;
-	height: 40px;
-	border: #598B11;
-	border-radius: 10px;
+	padding: 5px;
+	border-radius: 5px;
+	border:1px solid #03A9F4 ;
+	background-color: #ECECED;
 }
 
+.boton {
+	cursor: pointer;
+	font-size: 15px;
+	padding: 5px 10px;
+	border: 1px solid #03A9F4;
+	border-radius: 5px;
+	background-color: #03A9F4;
+}
+
+.simulacion {
+	text-align:center;	
+	cursor: pointer;
+	font-weight: bold;
+	padding: 5px;
+	height: 30px;
+	width: 150px;
+	border-radius: 5px;
+	border: 2px solid #03A9F4;	
+	background-color: #FFF;
+}
+
+	
